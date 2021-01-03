@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testscripts.TC_001_launchAppWithValidURL">
+      <class name="testscripts.TC_003_loginWithInValidUserNameAndValidPassword">
         <methods>
-          <include name="tc_001_launchAppWithValidUrl"/>
+          <include name="tc_003_loginWithInValidUserNameAndValidPassword"/>
           <include name="launchBrowser"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testscripts.TC_001_launchAppWithValidURL -->
+      </class> <!-- testscripts.TC_003_loginWithInValidUserNameAndValidPassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

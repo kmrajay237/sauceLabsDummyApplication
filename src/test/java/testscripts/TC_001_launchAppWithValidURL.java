@@ -1,10 +1,12 @@
 package testscripts;
 
-import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import common.CommonClass;
 import library.BaseTest;
 import library.Constants;
 import pageobject.LoginPagePO;
@@ -17,25 +19,19 @@ public class TC_001_launchAppWithValidURL extends BaseTest{
 			Reporter.log("Verifying Valid URL", true);
 			String expURL=Constants.validAppURL;
 			String actURL=driver.getCurrentUrl();			
-			Assert.assertEquals(actURL, expURL);
+			AssertJUnit.assertEquals(actURL, expURL);
 			
 			LoginPagePO loginPage=new LoginPagePO(driver);
+			CommonClass.isElementDisplayed(loginPage.userNameTextBox());
 			
-			WebElement username = loginPage.userNameTextBox();
-			boolean trueOrFalse = username.isDisplayed();
-			Assert.assertEquals(trueOrFalse, true);
+			CommonClass.isElementDisplayed(loginPage.passWordTextBox());
 			
-			WebElement password = loginPage.passWordTextBox();
-			trueOrFalse=password.isDisplayed();
-			Assert.assertEquals(trueOrFalse, true);
-			
-			WebElement loginButton = loginPage.loginButton();
-			trueOrFalse=loginButton.isDisplayed();
-			Assert.assertEquals(trueOrFalse, true);
+			CommonClass.isElementDisplayed(loginPage.loginButton());
+//			CommonClass.isElementEnabled(loginPage.loginButton());
 			
 			
 		} catch (Exception e) {
-			Assert.fail();
+			AssertJUnit.fail();
 		}
 		
 	}
