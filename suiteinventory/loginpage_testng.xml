@@ -9,7 +9,7 @@
     <classes>
       <class name="testscripts.TC_001_launchAppWithValidURL"/>
       <class name="testscripts.TC_002_loginWithValidCredentials"/>
-      <class name="testscripts.TC_003_loginWithInValidUserNameAndValidPassword"/>
+      <!-- <class name="testscripts.TC_003_loginWithInValidUserNameAndValidPassword"/> -->
     </classes>
   </test> <!-- Test -->
   

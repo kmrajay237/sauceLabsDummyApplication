@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test name="chromeTest(failed)" parallel="tests">
-    <parameter name="myBrowser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testscripts.TC_003_loginWithInValidUserNameAndValidPassword">
+      <class name="testscripts.TC_001_launchAppWithValidURL">
         <methods>
-          <include name="tc_003_loginWithInValidUserNameAndValidPassword"/>
+          <include name="tc_001_launchAppWithValidUrl"/>
           <include name="launchBrowser"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testscripts.TC_003_loginWithInValidUserNameAndValidPassword -->
+      </class> <!-- testscripts.TC_001_launchAppWithValidURL -->
     </classes>
-  </test> <!-- chromeTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

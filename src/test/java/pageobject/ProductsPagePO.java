@@ -6,14 +6,15 @@ import org.openqa.selenium.support.FindBy;
 
 import library.BasePage;
 
-public class ProductsPagePO extends BasePage{
+public class ProductsPagePO extends BasePage {
 
 	public ProductsPagePO(WebDriver driver) {
 		super(driver);
 	}
-	
-	@FindBy(css=".product_label")
+
+	@FindBy(css = ".product_label")
 	private WebElement productLabel;
+
 	public WebElement productLabel() {
 		return productLabel;
 	}
