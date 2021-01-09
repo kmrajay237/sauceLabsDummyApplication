@@ -1,0 +1,8 @@
+2021-01-09 10:33:05,451  INFO [TestNG-tests-1] LogClient:21 - Launching Chrome Browser
+ 2021-01-09 10:36:41,286  INFO [TestNG-tests-1] LogClient:21 - Launching Chrome Browser
+ 2021-01-09 10:36:43,900  WARN [TestNG-tests-1] LogClient:16 - This is warning
+ 2021-01-09 10:40:16,291  INFO [TestNG-tests-1] LogClient:21 - Launching Chrome Browser
+ 2021-01-09 10:40:18,909  WARN [TestNG-tests-1] LogClient:16 - This is warning
+ 2021-01-09 10:40:19,240  INFO [TestNG-tests-1] LogClient:21 - Launching Chrome Browser
+ 2021-01-09 10:40:21,016  INFO [TestNG-tests-1] TC_002_loginWithValidCredentials:18 - Login into Application with Valid Credential
+ 

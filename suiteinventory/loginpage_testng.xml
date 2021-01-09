@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+
+
+  <test thread-count="5" name="chromeTest">
+  <parameter name="myBrowser" value="chrome"></parameter>
+    <classes>
+      <class name="testscripts.TC_001_launchAppWithValidURL"/>
+      <class name="testscripts.TC_002_loginWithValidCredentials"/>
+      <!-- <class name="testscripts.TC_003_loginWithInValidUserNameAndValidPassword"/> -->
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <!-- <test thread-count="5" name="firefoxTest">
+  <parameter name="myBrowser" value="firefox"></parameter>
+    <classes>
+      <class name="testscripts.TC_001_launchAppWithValidURL"/>
+      <class name="testscripts.TC_002_loginWithValidCredentials"/>
+      <class name="testscripts.TC_003_loginWithInValidUserNameAndValidPassword"/>
+    </classes>
+  </test> --> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

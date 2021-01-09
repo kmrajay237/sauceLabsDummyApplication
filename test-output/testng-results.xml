@@ -1,31 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[Verifying Valid URL]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2407" started-at="2021-01-02T05:13:45Z" finished-at="2021-01-02T05:13:48Z">
+  <suite name="Suite" duration-ms="35113" started-at="2021-01-09T05:10:16Z" finished-at="2021-01-09T05:10:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2407" started-at="2021-01-02T05:13:45Z" finished-at="2021-01-02T05:13:48Z">
+    <test name="chromeTest" duration-ms="35113" started-at="2021-01-09T05:10:16Z" finished-at="2021-01-09T05:10:51Z">
       <class name="testscripts.TC_001_launchAppWithValidURL">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testscripts.TC_001_launchAppWithValidURL@4f7d0008]" name="launchBrowser" is-config="true" duration-ms="2185" started-at="2021-01-02T10:43:45Z" finished-at="2021-01-02T10:43:48Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testscripts.TC_001_launchAppWithValidURL@551aa95a]" name="launchBrowser" is-config="true" duration-ms="2617" started-at="2021-01-09T10:40:16Z" finished-at="2021-01-09T10:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="tc_001_launchAppWithValidUrl()[pri:0, instance:testscripts.TC_001_launchAppWithValidURL@4f7d0008]" name="tc_001_launchAppWithValidUrl" duration-ms="139" started-at="2021-01-02T10:43:48Z" finished-at="2021-01-02T10:43:48Z">
+        <test-method status="PASS" signature="tc_001_launchAppWithValidUrl()[pri:0, instance:testscripts.TC_001_launchAppWithValidURL@551aa95a]" name="tc_001_launchAppWithValidUrl" duration-ms="256" started-at="2021-01-09T10:40:18Z" finished-at="2021-01-09T10:40:19Z">
           <reporter-output>
-            <line>
-              <![CDATA[Verifying Valid URL]]>
-            </line>
           </reporter-output>
         </test-method> <!-- tc_001_launchAppWithValidUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscripts.TC_001_launchAppWithValidURL@4f7d0008]" name="tearDown" is-config="true" duration-ms="68" started-at="2021-01-02T10:43:48Z" finished-at="2021-01-02T10:43:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscripts.TC_001_launchAppWithValidURL@551aa95a]" name="tearDown" is-config="true" duration-ms="79" started-at="2021-01-09T10:40:19Z" finished-at="2021-01-09T10:40:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testscripts.TC_001_launchAppWithValidURL -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testscripts.TC_002_loginWithValidCredentials">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testscripts.TC_002_loginWithValidCredentials@35d176f7]" name="launchBrowser" is-config="true" duration-ms="1774" started-at="2021-01-09T10:40:19Z" finished-at="2021-01-09T10:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="tc_002_loginWithValidCredentials()[pri:0, instance:testscripts.TC_002_loginWithValidCredentials@35d176f7]" name="tc_002_loginWithValidCredentials" duration-ms="30299" started-at="2021-01-09T10:40:21Z" finished-at="2021-01-09T10:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_loginWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscripts.TC_002_loginWithValidCredentials@35d176f7]" name="tearDown" is-config="true" duration-ms="71" started-at="2021-01-09T10:40:51Z" finished-at="2021-01-09T10:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscripts.TC_002_loginWithValidCredentials -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="chromeTest(failed)" parallel="tests">
+    <parameter name="myBrowser" value="chrome"/>
+    <classes>
+      <class name="testscripts.TC_003_loginWithInValidUserNameAndValidPassword">
+        <methods>
+          <include name="tc_003_loginWithInValidUserNameAndValidPassword"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testscripts.TC_003_loginWithInValidUserNameAndValidPassword -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
