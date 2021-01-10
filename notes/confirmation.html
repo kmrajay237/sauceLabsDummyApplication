@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Confirmation</title>
+</head>
+<body>
+	<div align="center">
+		<p>Click the button to display Alert Box</p>
+		<button onclick="myfunction()">Try Me</button>
+		<p id="demo"></p>
+		<script>
+			function myfunction() {
+				var text;
+				var r = confirm("Press Button");
+				if (r == true)
+					text = "You Pressed OK";
+				else
+					text = "You Pressed Cancel";
+				document.getElementById("demo").innerHTML = text;
+			}
+		</script>
+		<h1>
+			<a href="https://www.facebook.com/">Facebook</a>
+		</h1>
+	</div>
+</body>
+</html>
