@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testscripts.TC_001_launchAppWithValidURL">
+      <class name="advanceTopics.RobotClassKeyPressRelease">
         <methods>
-          <include name="tc_001_launchAppWithValidUrl"/>
-          <include name="launchBrowser"/>
-          <include name="tearDown"/>
+          <include name="handlingFramesDragDrop"/>
         </methods>
-      </class> <!-- testscripts.TC_001_launchAppWithValidURL -->
+      </class> <!-- advanceTopics.RobotClassKeyPressRelease -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
